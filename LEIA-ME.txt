@@ -1,0 +1,16 @@
+JARVIS PARA ANDROID - como gerar o app (sem instalar nada no PC)
+
+1) Crie uma conta gratuita em github.com e um repositório novo (privado).
+2) Envie TODO o conteudo desta pasta para o repositorio (Add file > Upload files).
+   Importante: a pasta oculta ".github" precisa ir junto (e ela que gera o APK).
+3) Abra a aba "Actions", espere o "Gerar APK do Jarvis" ficar verde (uns 5 min).
+4) Clique na execucao > "Artifacts" > baixe "Jarvis-APK" (zip com o app-debug.apk).
+5) Passe o APK para o celular e instale (permita "instalar apps desconhecidos").
+
+CHAVES NECESSARIAS
+- Anthropic: console.anthropic.com > API Keys (uso pago por consumo).
+- Picovoice: console.picovoice.ai > AccessKey (plano gratuito).
+
+PRIMEIRO USO
+Abra o app, cole as chaves e toque nos botoes 1, 2 e 3, nessa ordem.
+Depois diga: "Jarvis..." (ele apita) ... "pausa o YouTube".
